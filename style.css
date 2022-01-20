@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 :root{
     --description-color: #3E3E3E;
@@ -46,6 +47,7 @@ img{
     font-weight: 400;
     font-size: 80px;
     line-height: 96px;
+    overflow-y: hidden;
 }
 .content h2 span:first-child{
     color: var(--heading-yellow-color);
@@ -127,4 +129,5 @@ img{
     font-family: 'Roboto', sans-serif;
 }
 
+/* Responsive Media query */
 
