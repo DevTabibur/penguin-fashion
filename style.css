@@ -5,6 +5,7 @@
     padding: 0;
 }
 :root{
+    --description-color: #3E3E3E;
     --nav-right-color: #3C3C3C;
     --bg-color: #fffbf0;
     --white-color: #fff;
@@ -33,3 +34,50 @@ img{
 .custom-nav .nav-link:hover{
     color: var(--heading-blue-color);
 }
+/* Banner */
+#banner{}
+.banner{
+    background-color: var(--bg-color);
+}
+.content{}
+.content h2{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+}
+.content h2 span:first-child{
+    color: var(--heading-yellow-color);
+}
+.content h2 span:last-child{
+    color: var(--heading-blue-color);
+}
+.content img{
+    width: 440.72px;
+    height: auto;
+}
+.description{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--description-color);
+}
+.buy-now-btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: var(--btn-bg-color);
+    color: var(--white-color);
+    transition: .4s;
+}
+.buy-now-btn:hover{
+    background-color: var(--white-color);
+    color: var(--btn-bg-color);
+}
+/* main area */
+/* show case area */
+
+
+
