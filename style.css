@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* Default CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --nav-right-color: #3C3C3C;
+    --bg-color: #fffbf0;
+    --white-color: #fff;
+    --heading-blue-color: #363958;
+    --btn-bg-color: #a4bc46;
+    --heading-yellow-color: #FABE4C;
+}
+img{
+    max-width: 100%;
+}
+/* Navbar */
+.custom-nav{
+    background-color: var(--bg-color);
+}
+.navbar-brand img{
+    width: 291.11px;
+    height: 39.27px;
+}
+.custom-nav .nav-link{
+    color: var(--nav-right-color);
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    transition: .2s;
+
+}
+.custom-nav .nav-link:hover{
+    color: var(--heading-blue-color);
+}
