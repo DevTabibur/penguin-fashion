@@ -6,6 +6,7 @@
 }
 :root{
     --description-color: #3E3E3E;
+    --card-img-bg-color: #f1f1f1;
     --nav-right-color: #3C3C3C;
     --bg-color: #fffbf0;
     --white-color: #fff;
@@ -77,7 +78,53 @@ img{
     color: var(--btn-bg-color);
 }
 /* main area */
+#main{}
+.main{}
 /* show case area */
-
+#show-case{}
+.show-case{}
+.show-case-title{}
+.show-case-title h2{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    color: var(--heading-blue-color);
+}
+.card{
+    border: none;
+    background-color: var(--white-color);
+}
+.card img{
+    width: 100%;
+    background-color: var(--card-img-bg-color);
+    border-radius: 20px;
+}
+.card-body{}
+.card-title{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--heading-blue-color);
+}
+.card-price{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: var(--heading-yellow-color);
+    font-size: 36px;
+    font-weight: 900;
+}
+/* icon boxes */
+#icon-boxes{}
+.icon-boxes{}
+.icon-box{}
+.icon-box img{
+    width: 70%;
+}
+.icon-box h3{
+    color: var(--heading-blue-color);
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
 
 
